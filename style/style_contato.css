@@ -1,0 +1,158 @@
+
+
+
+/*==========CABECALHO==========*/
+body {
+    font-family: 'Motserrat', sans-serif;
+}
+header {
+    background-color: #bbbbbb;
+    padding: 10px 0;
+}
+
+.caixaPrincipal {
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+}
+
+nav {
+    position: absolute;
+    top: 118px;
+    right: 0;
+}
+
+nav li {
+    display: inline-block; /*quebra o texto*/
+    margin: 0 0 0 15px;
+    
+}
+
+nav a {
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+    font-family:'Courier New', Courier, monospace;
+}
+
+nav a:hover {
+    color: darkorange;
+    text-shadow: 0px 2px 2px #000000; /*Sobriamento no texto*/
+}
+
+nav a:active {
+    color: #FF6B0D;
+}
+
+/*==========MAIN==========*/
+main {
+    width: 940px;
+    margin: 0 auto;
+}
+
+form {
+    margin: 40px 0;
+}
+
+form label, form legend {
+    display: block;
+    font-size: 16px;
+    margin: 0 0 5px;
+}
+
+form legend {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.input-padrao {
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 50%;
+}
+
+.checkbox {
+    margin: 20px 0;
+}
+
+
+
+/*==========RODAPE==========*/
+.n-Cotatos {
+    padding: 0 0 10px;
+    
+}
+
+select {
+    margin: 0 10px 0;
+    padding: 5px 20px;
+}
+
+.enviar {
+    width: 40%;
+    padding: 15px 0;
+    background-color: orange;
+    color: white;
+    font-weight: bold;
+    text-shadow: 0px 2px #000000; /*Sobriamento no texto*/
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    transition: 0.4s background; /* Faz uma transição de cores no css3 "no hover e active" */
+    cursor: pointer; /* Troca a ceta pela mão*/
+    transition: 0.4s all;
+}
+
+.enviar:hover {
+    background-color: darkorange;
+    transform: scale(1.1); /* Aumenta o tamnho do elemento */
+    /* transform: rotate(1000deg) scale(3);*/ /*Faz a rotação e aumenta o botão */
+}
+
+.enviar:active {
+    background-color: #FF6B0D;
+}
+
+table {
+    margin: 15px 0 35px;
+}
+
+.hora {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+thead {
+    background: #555555;
+    color: white;
+    font-weight: bold;
+}
+
+td, th {
+    border: 1px solid #000000;
+    padding: 8px 15px;
+}
+
+footer {
+    text-align: center;
+    background-image: url(bg.jpg);
+    padding: 10px 0;
+}
+
+.copyright {
+    color: #bbbbbb;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 12px;
+}
+
+
+
+/*========== DISPOSITIVOS MOBILE ==========*/
+@media screen and (max-width: 480px) {
+    body {
+        font-family: 'Motserrat', sans-serif;
+    }
+}

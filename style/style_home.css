@@ -1,0 +1,168 @@
+
+
+
+/*========== CABECALHO ==========*/
+body {
+    font-family: 'Motserrat', sans-serif;
+}
+
+header {
+    background-color: #bbbbbb;
+    padding: 10px 0;
+}
+
+.caixaPrincipal {
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+}
+
+nav {
+    position: absolute;
+    top: 118px;
+    right: 0;
+}
+
+nav li {
+    display: inline-block;
+    margin: 0 0 0 15px;
+}
+
+nav a {
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+    font-family:'Courier New', Courier, monospace;    
+}
+
+nav a:hover {
+    color: darkorange;
+    text-shadow: 0px 2px 2px #000000; /*Sobriamento no texto*/
+}
+
+nav a:active {
+    color: #FF6B0D;
+}
+
+
+
+/*========== MAIN ==========*/
+main {
+    width: 940px;
+    margin: 0 auto;
+}
+
+.banner {
+    width: 100%;
+}
+
+.titulo-principal {
+    text-align: center;
+    font-size: 2em;
+    margin: 1em 0 1em;
+    clear: left;            /* Banner utensilios */
+}
+
+.utensilios {
+    width: 150px;
+    float: left;
+    margin: 0 20px 20px 0;
+/* a imagem fica PB e com o hover volta a colorir */
+    transition: .3s;
+	-webkit-filter: grayscale(100%);
+	filter: grayscale(100%);
+	filter: gray; /* IE */
+}
+
+.utensilios:hover {
+	-webkit-filter: none;	
+	filter: none;
+}
+
+.principal legend {
+    margin: 0 0 1em;
+    line-height: 1.2;
+}
+
+.principal strong {
+    font-weight: bold;
+
+}
+
+.principal em {
+    font-style: italic;
+    margin: 0 0 0em;
+}
+
+.mapa {
+    padding: 4em 0;
+}
+
+.mapa legend {
+    margin: 0 0 1em;
+    text-align: center;
+}
+.conteudo-bebeficios {
+    width: 800px;
+    margin: 0 auto;
+    text-align: center;
+
+}
+.lista-bebeficios {
+    width: 40%;
+    display: inline-block;
+    vertical-align: top;
+
+}
+.intes {
+    line-height: 2;
+}
+
+.intes:first-child {
+    font-weight: bold;      /* Para estudar first-child */
+}
+
+.intes:before {
+    content: "✃ ";
+}
+
+.banner-beneficio {
+    width: 59%;
+    opacity: 0.3;           /* Que é = a 30% */
+    transition: 400ms;
+}
+
+.banner-beneficio:hover {
+    opacity: 1;             /* Que é = a 100% */
+
+}
+
+div legend {
+    margin: 2em 0 2em;
+    text-align: center;
+}
+
+.video {
+    width: 100%;
+    margin: 1em auto;
+    padding: 20px 0 100px 0;
+}
+
+
+
+/*========== RODAPE ==========*/
+footer {
+    text-align: center;
+    background-image: url(bg.jpg);
+    padding: 10px 0;
+}
+
+.copyright {
+    color: #bbbbbb;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 12px;
+}
+
+/*========== FIM ==========*/

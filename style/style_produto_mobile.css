@@ -1,0 +1,17 @@
+
+
+/*========== DISPOSITIVOS MOBILE ==========*/
+@media screen and (max-width: 480px) {
+    .caixaPrincipal {
+        width: auto;
+    }
+
+    h1 {
+        text-align: center;
+    }
+
+    nav {
+        position: static;
+    }
+
+}

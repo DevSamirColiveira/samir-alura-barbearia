@@ -1,0 +1,26 @@
+
+
+/*========== DISPOSITIVOS MOBILE ==========*/
+@media screen and (max-width: 480px) {
+    .caixaPrincipal, .principal, .mapa, .beneficios {
+        width: auto;
+    }
+
+    h1 {
+        text-align: center;
+    }
+
+    nav {
+        position: static;
+    }
+
+    .conteudo-bebeficios {
+        width: 100%;
+    }
+    
+    /* .video {
+        width: 100%;
+        height: 100%;
+    } */
+  
+}
